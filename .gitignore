@@ -1,0 +1,67 @@
+# Archivos de IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Archivos de compilación
+/out/
+build/
+target/
+
+# Archivos de dependencias descargadas por Maven/Gradle
+.mvn/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Archivos de configuración de Maven/Gradle
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/build.gradle
+**/settings.gradle
+**/gradle.properties
+# directorios que contienen las dependencias y construcciones locales
+**/dependency-reduced-pom.xml
+**/target/
+**/build/
+.gradle/
+.mvn/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de sistema operativo
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Archivos de log
+*.log
+
+# Archivos de configuración personal
+.vscode/
+*.env
+
+# Archivos de cobertura de pruebas
+/coverage/
+*.lcov
+
+# Archivos generados por Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de paquetes IDE
+*.classpath
+*.project
+*.settings/
+
+# Archivos de cache
+/caches/
+/tmp/
